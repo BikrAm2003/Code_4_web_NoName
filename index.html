@@ -10,7 +10,7 @@
 
     <!-- AOS animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css"rel="stylesheet">
-
+    <script>(function(w, d) { w.CollectId = "63b1109850094935eaaa139a"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 
 </head>
 <body>
@@ -21,7 +21,7 @@
      <!-- Navbar -->
      <nav>
         <div class="container flex align-item-center">
-            <img src="./images/logo.png" alt="Coding shuttle logo">
+            <a href=""><img src="./images/logo.png" alt="want to code,click here"></a>
             <div class="menu-icon">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -342,8 +342,8 @@
                                 <b>MENU</b>
                             </li>
                             <li><a href="#">About us</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="https://www.codingshuttle.com/s/store">Courses</a></li>
+                            <li><a href="https://www.codingshuttle.com/contactus">Contact</a></li>
                         </ul>
                     </div>
                     <div>
@@ -353,9 +353,9 @@
 
                                 </b>
                             </li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Refund policy</a></li>
+                            <li><a href="https://www.codingshuttle.com/privacypolicy">Privacy Policy</a></li>
+                            <li><a href="https://www.codingshuttle.com/termsofuse">Terms of use</a></li>
+                            <li><a href="https://www.codingshuttle.com/refundpolicy">Refund policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -364,6 +364,7 @@
                     <p>anujkumarsharma@codingshuttle.com</p>
                 </div>
             </div>
+            <div id="google_translate_element"></div>
             <div class="copyright">
                 <p>Copyright © 2023 Code4web Team_NO_NAME. All Rights Reserved.
                 </p>
@@ -385,7 +386,12 @@
      <script>
         AOS.init();
       </script>
-
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script>
 
 <script>
     var loader = document.getElementById("preloader");
